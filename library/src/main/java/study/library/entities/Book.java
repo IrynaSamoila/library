@@ -21,13 +21,19 @@ public class Book {
 		this.pubYear = pubYear;
 		this.isbn = isbn;
 	}
+	
+	public Book(String title, Long pubYear, String isbn) {
+		this.title = title;
+		this.pubYear = pubYear;
+		this.isbn = isbn;
+	}
 
 	@Id
     @GeneratedValue
 	public Long getId() {
 		return id;
 	}
-
+	
 	public void setId(Long id) {
 		this.id = id;
 	}

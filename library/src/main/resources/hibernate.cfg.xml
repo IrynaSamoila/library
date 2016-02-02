@@ -22,6 +22,8 @@
 
    <!-- List of XML mapping files -->
    <mapping class="study.library.entities.Book"/>
+   <mapping class="study.library.entities.Reader"/>
+   <mapping class="study.library.entities.Librarian"/>
 
 </session-factory>
 </hibernate-configuration>
