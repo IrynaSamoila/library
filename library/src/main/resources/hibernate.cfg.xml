@@ -24,6 +24,8 @@
    <mapping class="study.library.entities.Book"/>
    <mapping class="study.library.entities.Reader"/>
    <mapping class="study.library.entities.Librarian"/>
+   <mapping class="study.library.entities.Author"/>
+   <mapping class="study.library.entities.BookLending"/>
 
 </session-factory>
 </hibernate-configuration>
